@@ -175,11 +175,10 @@ a {
 .hireme {
   text-align: right;
 }
-.mypicture {
-  width: 430px;
-  height: 603px;
-  background-size: cover;
-  background-image: url(/images/sectionimg.jpg);
+.mypicture{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .skills h1 b {
   color: #e93656;
