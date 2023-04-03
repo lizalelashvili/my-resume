@@ -1,117 +1,246 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/stylesheet.css">
-</head>
-<body>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/stylesheet.css" />
+  </head>
+  <body>
     <header class="header">
-        <div class="myheader">
-          <div class="headertxt">
-            <h1>Roca<span class="point">.</span></h1>
-            <span>Resume Template</span>
-          </div>
-          <div>
-            <h1 class="number">01</h1>
-            <h2 class="info">About me</h2>
+      <div class="myheader">
+        <div class="headertxt">
+          <h1>Roca <span id="point">.</span></h1>
+          <span>Resume Template</span>
+        </div>
+        <div>
+          <h1 class="number">01</h1>
+          <h2 class="info">About me</h2>
+        </div>
+      </div>
+      <div class="slide">
+        <div class="myslides">
+          <img src="images/slider1.png" alt="myphoto" />
+        </div>
+        <div class="myslides">
+          <img src="images/slider2.png" alt="myphoto" />
+        </div>
+        <div class="myslides img2">
+          <img src="images/slideimage6.png" alt="myphoto" />
+        </div>
+        <div>
+          <span class="imageslides"></span>
+          <span class="imageslides"></span>
+          <span class="imageslides"></span>
+        </div>
+      </div>
+      <div class="myportfolio">
+        <div class="portfoliodiv">
+          <h1>Hi, I' Am Liza Lelashvili</h1>
+          <span>I am a Web Developer</span>
+          <div class="icons">
+            <a href="https://github.com/lizalelashvili" target="blank">
+              <img src="images/icons8-github (2).svg" alt="githubicon" />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/lizi-lelashvili-110527231/"
+              target="blank"
+            >
+              <img src="images/icons8-linkedin-2.svg" alt="linkedinicon" />
+            </a>
+            <a
+              href="https://www.facebook.com/lizi.lelashvili.52"
+              target="blank"
+            >
+              <img src="images/icons8-facebook (2).svg" alt="facebookicon" />
+            </a>
+            <a href="https://www.instagram.com/lizalelashvili/" target="blank">
+              <img src="images/icons8-instagram.svg" alt="instaicon" />
+            </a>
           </div>
         </div>
-        <div class="slide">
-          <div class="myslides">
-            <img src="images/slider1.png" alt="myphoto" />
-          </div>
-          <div class="myslides">
-            <img src="images/slider2.png" alt="myphoto" />
-          </div>
-          <div class="myslides img2">
-            <img src="images/slideimage6.png" alt="myphoto" />
-          </div>
-          <div>
-            <span class="imageslides"></span>
-            <span class="imageslides"></span>
-            <span class="imageslides"></span>
-          </div>
+      </div>
+      <div class="satisfclients">
+        <div class="precentage">
+          100%
+          <span>Satisfied Clients</span>
         </div>
-        <div class="myportfolio">
-          <div class="portfoliodiv">
-            <h1>
-              Hi, I' Am 
-              Liza Lelashvili
-            </h1>
-            <span>I am a Web Developer</span>
-            <div class="icons">
-                <a href="https://github.com/lizalelashvili" target="blank">
-                    <img src="images/github.png" alt="githubicon" />
-                  </a>
-                <a href="https://www.linkedin.com/in/lizi-lelashvili-110527231/" target="blank">
-                <img src="images/linkedin.png" alt="linkedinicon" />
-              </a>
-              <a
-                href="https://www.facebook.com/lizi.lelashvili.52" target="blank">
-                <img src="images/facebook.png" alt="facebookicon" />
-              </a>
-              <a href="https://www.instagram.com/lizalelashvili/" target="blank">
-                <img src="images/instagram.png" alt="instaicon">
-              </a>
+        <div class="line"></div>
+      </div>
+    </header>
+    <main>
+      <section class="section" id="about-me-section">
+        <div class="container">
+          <div class="aboutmesec">
+            <div class="aboutme">
+              <h1>Liza Lelashvili</h1>
+              <h3>Web Developer</h3>
+              <h4>
+                I am a front-end developer, who is determined to learn more and
+                more. Has great teamwork skills, also is very responsible and
+                dedicated to the greatest outcomes.
+              </h4>
+              <div class="hireme"><a href="#" target="_blank">Hire Me</a></div>
             </div>
-          </div>
-        </div>
-        <div class="satisfclients">
-            <div class="precentage">
-              100%
-              <span>Satisfied Clients</span>
-            </div>
-            <div class="line"></div>
-          </div>
-        </header>
-        <main>
-          <section class="section" id="about-me-section">
-            <div class="container">
-              <div class="aboutmesec">
-                <div class="aboutme">
-                  <h1>Liza Lelashvili</h1>
-                  <h3>Web Developer</h3>
-                  <h4>
-                    I am a front-end developer, who is determined to learn more and more. Has great teamwork skills, also is very responsible and dedicated to the greatest outcomes.
-                  </h4>
-                  <div class="hireme"><a href="#" target="_blank">Hire Me</a></div>
+            <div class="mypicture"></div>
+            <div class="myskills">
+              <div class="skills">
+                <h1>HTML<b>(95%)</b></h1>
+                <div class="skillsperc">
+                  <span class="htmlspan"></span>
                 </div>
-                <div class="mypicture"></div>
-    
-                <div class="myskills">
-                  <div class="skills">
-                    <h1>HTML<b>(95%)</b></h1>
-                    <div class="skillsperc">
-                      <span class="htmlspan"></span>
-                    </div>
-                  </div>
-                  <div class="skills">
-                    <h1>CSS<b>(90%)</b></h1>
-                    <div class="skillsperc">
-                      <span class="cssspan"></span>
-                    </div>
-                  </div>
-                  <div class="skills">
-                    <h1>JavaScript<b>(75%)</b></h1>
-                    <div class="skillsperc">
-                      <span class="jsspan"></span>
-                    </div>
-                  </div>
-                  <div class="skills">
-                    <h1>Bootstrap<b>(80%)</b></h1>
-                    <div class="skillsperc">
-                      <span class="bsspan"></span>
-                    </div>
-                  </div>
-                  
-        </main>
-    
-
+              </div>
+              <div class="skills">
+                <h1>CSS<b>(90%)</b></h1>
+                <div class="skillsperc">
+                  <span class="cssspan"></span>
+                </div>
+              </div>
+              <div class="skills">
+                <h1>JavaScript<b>(75%)</b></h1>
+                <div class="skillsperc">
+                  <span class="jsspan"></span>
+                </div>
+              </div>
+              <div class="skills">
+                <h1>Bootstrap<b>(80%)</b></h1>
+                <div class="skillsperc">
+                  <span class="bsspan"></span>
+                </div>
+              </div>
+              <div class="contact-adresses">
+                <a
+                  href="https://www.facebook.com/lizi.lelashvili.52"
+                  target="blank"
+                >
+                  <img src="images/facebooksvg.svg" alt="facebook-icon" />
+                </a>
+                <a href="https://github.com/lizalelashvili" target="_blank">
+                  <img src="images/githubsvg (2).svg" alt="github-icon" />
+                </a>
+                <a></a>
+                <a
+                  href="https://www.linkedin.com/in/lizi-lelashvili-110527231/"
+                >
+                  <img src="images/linkedinsvg.svg" alt="linkedin-icon" />
+                </a>
+                <a href="https://www.instagram.com/lizalelashvili/">
+                  <img src="images/instasvg.svg" alt="instagram-icon" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="maininfo-section">
+        <div class="container">
+          <div class="maininfo">
+            <div class="phone">
+              <div class="dashborder">
+                <a href="#">
+                  <img src="images/call.svg" alt="phone-icon" />
+                </a>
+              </div>
+              <h2>Phone Number</h2>
+              <span>598 998 330</span>
+            </div>
+            <div class="location">
+              <div class="dashborder">
+                <a href="#">
+                  <img src="images/location.svg" alt="location-icon" />
+                </a>
+              </div>
+              <h2>Address</h2>
+              <span>I.Abashidze 14</span>
+            </div>
+            <div class="emailaddress">
+              <div class="dashborder">
+                <a href="#">
+                  <img src="images/mail.svg" alt="email-icon" />
+                </a>
+              </div>
+              <h2>Email Address</h2>
+              <span>lizalelashvili@gmail.com</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="moreinfo">
+        <div class="services">
+          <div class="servicesinfo">
+            <a href="#"
+              ><img src="images/design.svg" alt="graphic-design-logo"
+            /></a>
+            <h3>Graphics Design</h3>
+            <span
+              >Lorem ipm dolor amet, consecte adipiing lit Sunt sed ad possimus
+              magm maiores.Ipsa dolor</span
+            >
+          </div>
+          <div class="servicesinfo">
+            <a href="#"><img src="images/service.svg" alt="service-logo" /></a>
+            <h3>Best Service</h3>
+            <span
+              >Lorem ipm dolor amet, consecte adipiing lit Sunt sed ad possimus
+              magm maiores.Ipsa dolor</span
+            >
+          </div>
+          <div class="servicesinfo">
+            <a href="#"><img src="images/service.svg" alt="service-logo" /></a>
+            <h3>Best Service</h3>
+            <span
+              >Lorem ipm dolor amet, consecte adipiing lit Sunt sed ad possimus
+              magm maiores.Ipsa dolor</span
+            >
+          </div>
+          <div class="servicesinfo">
+            <a href="#"><img src="images/pixel.svg" alt="pixel-logo" /></a>
+            <h3>Pixel Perfect</h3>
+            <span
+              >Lorem ipm dolor amet, consecte adipiing lit Sunt sed ad possimus
+              magm maiores.Ipsa dolor</span
+            >
+          </div>
+          <div class="servicesinfo">
+            <a href="#"><img src="images/ideas.svg" alt="ideas-logo" /></a>
+            <h3>Unique Ideas</h3>
+            <span
+              >Lorem ipm dolor amet, consecte adipiing lit Sunt sed ad possimus
+              magm maiores.Ipsa dolor</span
+            >
+          </div>
+          <div class="servicesinfo">
+            <a href="#"
+              ><img src="images/analysis.svg" alt="analysis-logo"
+            /></a>
+            <h3>Design Analysis</h3>
+            <span
+              >Lorem ipm dolor amet, consecte adipiing lit Sunt sed ad possimus
+              magm maiores.Ipsa dolor</span
+            >
+          </div>
+          <div class="servicesinfo">
+            <a href="#"><img src="images/chart.svg" alt="chart-logo" /></a>
+            <h3>Fully Managed</h3>
+            <span
+              >Lorem ipm dolor amet, consecte adipiing lit Sunt sed ad possimus
+              magm maiores.Ipsa dolor</span
+            >
+          </div>
+          <div class="servicesinfo">
+            <a href="#"><img src="images/support.svg" alt="support-logo" /></a>
+            <h3>Helpful Support</h3>
+            <span
+              >Lorem ipm dolor amet, consecte adipiing lit Sunt sed ad possimus
+              magm maiores.Ipsa dolor</span
+            >
+          </div>
+        </div>
+      </section>
+    </main>
 
     <script src="js/index.js"></script>
-</body>
+  </body>
 </html>
