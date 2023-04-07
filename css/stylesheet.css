@@ -1,5 +1,5 @@
 @font-face {
-  font-family: "Glacial Indifference";
+  font-family: "Glacial Indifference-Bold";
   src: url("../fonts/GlacialIndifference-Bold.eot");
   src: url("../fonts/GlacialIndifference-Bold.eot?#iefix")
       format("embedded-opentype"),
@@ -107,7 +107,7 @@
 }
 
 @font-face {
-  font-family: "Poppins";
+  font-family: "Poppins-extrabold";
   src: url("../fonts/Poppins-ExtraBold.eot");
   src: url("../fonts/Poppins-ExtraBold.eot?#iefix") format("embedded-opentype"),
     url("../fonts/Poppins-ExtraBold.woff2") format("woff2"),
@@ -133,7 +133,7 @@
 }
 
 @font-face {
-  font-family: "Roboto";
+  font-family: "Roboto-light";
   src: url("../fonts/Roboto-Light.eot");
   src: url("../fonts/Roboto-Light.eot?#iefix") format("embedded-opentype"),
     url("../fonts/Roboto-Light.woff2") format("woff2"),
@@ -146,7 +146,7 @@
 }
 
 @font-face {
-  font-family: "Roboto";
+  font-family: "Roboto-regular";
   src: url("../fonts/Roboto-Regular.eot");
   src: url("../fonts/Roboto-Regular.eot?#iefix") format("embedded-opentype"),
     url("../fonts/Roboto-Regular.woff2") format("woff2"),

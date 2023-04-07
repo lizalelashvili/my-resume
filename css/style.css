@@ -265,6 +265,7 @@ body {
 .moreinfo {
   padding-top: 100px;
 }
+/* SERVICES */
 .servicesinfo:hover img {
   display: none;
 }
@@ -308,4 +309,289 @@ body {
   color: #ececec;
   width: 100%;
   padding: 0px 10px;
+}
+/* ARTICLES */
+.articletitle {
+  width: 100%;
+  margin-top: 90px;
+  text-align: center;
+}
+.articletitle > span {
+  font-family: "Glacial Indifference-Bold";
+  font-size: 13px;
+  color: #2ed279;
+}
+.articletitle > h1 {
+  font-family: "Glacial Indifference-Bold";
+  margin-bottom: 50px;
+  font-size: 70px;
+  color: #2e2e2e;
+}
+.articleitems {
+  justify-content: space-between;
+  display: flex;
+}
+.articleimg {
+  position: relative;
+  width: 50%;
+}
+.designarticle {
+  width: 50%;
+  background-color: #fafafa;
+  display: flex;
+  align-items: center;
+}
+.articleinfo > img {
+  padding: 27px 30px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  display: block;
+  margin-bottom: 20px;
+}
+.articleinfo > span {
+  font-family: "Muli";
+  font-size: 14px;
+  color: #888888;
+}
+.articleinfo > h1 {
+  font-family: "Glacial Indifference-Bold";
+  font-size: 40px;
+  color: #161616;
+  margin-bottom: 15px;
+}
+.articleinfo > h3 {
+  font-family: "Muli";
+  font-size: 16px;
+  color: #494949;
+  line-height: 20px;
+}
+.readmore {
+  margin-top: 10px;
+}
+.readmore > a {
+  font-family: "Muli";
+  color: #444444;
+}
+.articleimg > img {
+  margin-bottom: 16px;
+}
+.articleinfo {
+  max-width: 600px;
+  margin: 0px auto;
+  padding: 0px 15px;
+  box-sizing: border-box;
+}
+.articleimg > img {
+  display: block;
+  max-height: 470px;
+  object-fit: cover;
+}
+.years {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+  color: #e93656;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 123px;
+  background-color: #15263e;
+}
+.years span {
+  font-family: "Glacial Indifference-Bold";
+  transform: rotate(-90deg);
+}
+.yearright {
+  right: 0px;
+  left: initial;
+}
+/* PARTNERS */
+.rocateam {
+  margin: 80px 0px;
+  width: 100%;
+}
+.rocatitle {
+  text-align: center;
+}
+.rocatitle span {
+  font-family: "Glacial Indifference-Bold";
+  color: #2ED279;
+  font-size: 14px;
+}
+.rocatitle h1 {
+  font-family: "Glacial Indifference-Bold";
+  font-size: 70px;
+  color: #262526;
+  margin-bottom: 40px;
+}
+.rocateamitem {
+  width: 25%;
+  height: 190px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.4s;
+  border: 4px solid transparent;
+  box-sizing: border-box;
+}
+.rocateamitem:hover {
+  border: 4px solid #e93656;
+}
+.rocateamitem:hover img {
+  display: none;
+}
+.rocateamitem:hover .rocateamclient {
+  display: block;
+}
+.rocateamclient h1 {
+  font-family: "Poppins";
+  font-size: 16px;
+  color: #161616;
+  margin-bottom: 10px;
+}
+.rocateamclient span {
+  font-family: "Roboto-light";
+  color: #626262;
+  font-size: 13px;
+}
+.rocateamclient {
+  display: none;
+  max-width: 164px;
+  text-align: center;
+}
+.rocateaminfo {
+  display: flex;
+}
+/* FOOTER */
+
+footer .container {
+  position: relative;
+  z-index: 1;
+}
+footer { 
+  margin-top: 160px;
+background: url(../images/map.jpg);
+  width: 100%;
+  padding-top: 75px;
+  position: relative; 
+}
+.contact-us{
+  text-align: center;
+}
+.contact-us h1 {
+  font-family: "Jaapokki";
+  font-size: 45px;
+  color: #FFFFFF;
+  margin-bottom: 12px;
+}
+.contact-us span {
+  font-family: "Roboto-light";
+  display: block;
+  font-size: 17px;
+  color: #EEEEEE;
+  margin-bottom: 40px;
+}
+.userinput {
+  width: 100%;
+  display: flex;
+}
+.userinput > .forminput {
+  width: 33.333%;
+  padding: 0px 5px;
+  box-sizing: border-box;
+}
+.forminput input {
+  font-family: "Poppins";
+  padding: 18px;
+  border: 0;
+  outline: none;
+  width: 100%;
+}
+.yourmessage textarea {
+  margin-top: 10px;
+  resize: none;
+  width: 100%;
+  border: 0;
+  outline: none;
+  height: 110px;
+  padding: 18px;
+}
+.yourmessage {
+  padding: 0px 5px;
+}
+.sendbutton button {
+  font-family: "Glacial Indifference-Bold";
+  cursor: pointer;
+  font-size: 14px;
+  border: 2px solid #E93656;
+  color: #E93656;
+  background: none;
+  padding: 17px 30px;
+}
+.sendbutton {
+  width: 100%;
+  text-align: center;
+  margin-top: 15px;
+}
+.rocafoot {
+  background-color: #282828;
+  width: 100%;
+  margin-top: 60px;
+  position: relative;
+  z-index: 1;
+}
+.rocatxt {
+  max-width: 571px;
+  margin: 0px auto;
+  text-align: center;
+}
+.rocatxt h1 {
+  font-family: "Poppins-extrabold";
+  font-size: 55.42px;
+  padding-top: 60px;
+  padding-bottom: 11px;
+  color: #FFFFFF;
+  text-align: center;
+}
+#period {
+  color: #E93656;
+  font-size: 45.72px;
+}
+.rocatxt span {
+  font-family: "Roboto-regular";
+  font-size: 17px;
+  color: #A5A5A5;
+}
+.footericons a {
+  font-size: 20px;
+  margin: 0px 10px;
+}
+.footericons {
+  padding: 40px 0px;
+}
+.copyright {
+  font-family: "Muli";
+  background-color: #171717;
+  font-size: 15px;
+  color: #A0A8B7;
+  text-align: center;
+  padding: 25px 0px;
+  position: relative;
+  z-index: 1;
+}
+.copyright span {
+  color: #FFFFFF;
+}
+footer::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: #171717;
+  opacity: 0.71;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
 }
