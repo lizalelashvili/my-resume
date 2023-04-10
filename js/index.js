@@ -22,20 +22,22 @@ window.onscroll = function () {
   myFunction();
 };
 function myFunction() {
-    const htmlSpan = document.querySelector(".htmlspan");
-    const cssSpan = document.querySelector(".cssspan");
-    const jsSpan = document.querySelector(".jsspan");
-    const bootstrapSpan = document.querySelector(".bsspan");
-  
-    if (document.documentElement.scrollTop > 200) {
-      htmlSpan.classList.add("precent100");
-      cssSpan.classList.add("precent90");
-      jsSpan.classList.add("parent80");
-      bootstrapSpan.classList.add("parent85");
-    } else {
-      htmlSpan.classList.remove("precent100");
-      cssSpan.classList.remove("precent90");
-      jsSpan.classList.remove("parent80");
-      bootstrapSpan.classList.remove("parent85");
-    }
+  const htmlSpan = document.querySelector(".htmlspan");
+  const cssSpan = document.querySelector(".cssspan");
+  const jsSpan = document.querySelector(".jsspan");
+  const bootstrapSpan = document.querySelector(".bsspan");
+
+  if (document.documentElement.scrollTop > 200) {
+    htmlSpan.classList.add("precent100");
+    cssSpan.classList.add("precent90");
+    jsSpan.classList.add("parent80");
+    bootstrapSpan.classList.add("parent85");
+  } else {
+    htmlSpan.classList.remove("precent100");
+    cssSpan.classList.remove("precent90");
+    jsSpan.classList.remove("parent80");
+    bootstrapSpan.classList.remove("parent85");
   }
+}
+// SLIDER
+

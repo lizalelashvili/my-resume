@@ -6,6 +6,9 @@
 a {
   text-decoration: none;
 }
+.seemore1024 {
+  display: none;
+}
 .myslides {
   background-color: #dddddd;
   max-width: 1600px;
@@ -39,7 +42,7 @@ a {
   color: #b3b3b3;
   font-family: "Montserrat";
 }
-#point{
+#point {
   font-size: 33px;
   color: #0081ff;
 }
@@ -175,7 +178,7 @@ a {
 .hireme {
   text-align: right;
 }
-.mypicture{
+.mypicture {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -417,7 +420,7 @@ body {
 }
 .rocatitle span {
   font-family: "Glacial Indifference-Bold";
-  color: #2ED279;
+  color: #2ed279;
   font-size: 14px;
 }
 .rocatitle h1 {
@@ -470,27 +473,27 @@ footer .container {
   position: relative;
   z-index: 1;
 }
-footer { 
+footer {
   margin-top: 160px;
-background: url(../images/map.jpg);
+  background: url(../images/map.jpg);
   width: 100%;
   padding-top: 75px;
-  position: relative; 
+  position: relative;
 }
-.contact-us{
+.contact-us {
   text-align: center;
 }
 .contact-us h1 {
   font-family: "Jaapokki";
   font-size: 45px;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-bottom: 12px;
 }
 .contact-us span {
   font-family: "Roboto-light";
   display: block;
   font-size: 17px;
-  color: #EEEEEE;
+  color: #eeeeee;
   margin-bottom: 40px;
 }
 .userinput {
@@ -525,8 +528,8 @@ background: url(../images/map.jpg);
   font-family: "Glacial Indifference-Bold";
   cursor: pointer;
   font-size: 14px;
-  border: 2px solid #E93656;
-  color: #E93656;
+  border: 2px solid #e93656;
+  color: #e93656;
   background: none;
   padding: 17px 30px;
 }
@@ -552,17 +555,17 @@ background: url(../images/map.jpg);
   font-size: 55.42px;
   padding-top: 60px;
   padding-bottom: 11px;
-  color: #FFFFFF;
+  color: #ffffff;
   text-align: center;
 }
 #period {
-  color: #E93656;
+  color: #e93656;
   font-size: 45.72px;
 }
 .rocatxt span {
   font-family: "Roboto-regular";
   font-size: 17px;
-  color: #A5A5A5;
+  color: #a5a5a5;
 }
 .footericons a {
   font-size: 20px;
@@ -575,14 +578,14 @@ background: url(../images/map.jpg);
   font-family: "Muli";
   background-color: #171717;
   font-size: 15px;
-  color: #A0A8B7;
+  color: #a0a8b7;
   text-align: center;
   padding: 25px 0px;
   position: relative;
   z-index: 1;
 }
 .copyright span {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 footer::after {
   content: "";
@@ -594,4 +597,74 @@ footer::after {
   top: 0px;
   left: 0px;
   right: 0px;
+}
+/* SLIDER */
+.slider-container {
+  margin-top: 150px;
+  background-image: url(../images/clip.jpg);
+  height: 400px;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+.horiz-slider {
+  max-width: 1100px;
+}
+.horiz-slide {
+  position: absolute;
+  top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  transition: transform 0.5s ease-in-out;
+}
+.horiz-slide > h3 {
+  text-align: right;
+  width: 30%;
+  font-family: "Roboto-light";
+  font-size: 15px;
+  color: #ffffff;
+  letter-spacing: 0.45px;
+}
+.horiz-slide > img {
+  width: 140px;
+  border: dashed;
+  border-radius: 50%;
+  border-color: #ffffff;
+  padding: 10px;
+}
+.righttext > h1 {
+  color: #ffffff;
+  font-size: 50px;
+}
+.righttext > span {
+  color: #e93656;
+  font-family: "Roboto-regular";
+  font-size: 13px;
+  letter-spacing: 0.52px;
+}
+.righttext > h2 {
+  font-size: 28px;
+  font-family: "Glacial Indifference-Bold";
+  color: #ffffff;
+  letter-spacing: 0.84px;
+}
+.slide-controls {
+  position: absolute;
+  right: 5%;
+  top: 30%;
+  display: flex;
+  flex-direction: column;
+}
+.slide-controls button {
+  background-color: #ffffff00;
+  border: 2px solid #ffffff;
+  width: 13px;
+  height: 13px;
+  margin-top: 15px;
+}
+.controlbtn:active {
+  border: 2px solid #e93656;
 }

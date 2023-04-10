@@ -1,0 +1,41 @@
+@media only screen and (max-width: 1024px) {
+  .slide img {
+    max-width: 500px;
+  }
+  .satisfclients {
+    right: 0px;
+  }
+  .hireme {
+    text-align: left;
+  }
+  .hidden {
+    display: none;
+  }
+  .seemore1024 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 5%;
+    color: #131a36;
+  }
+  .seemore1024 a:after {
+    color: white;
+    background-color: #e93656;
+    border: none;
+  }
+  .slider-container {
+    margin-top: 100px;
+  }
+  .designarticle,
+  .articleimg {
+    width: 100%;
+  }
+  .articleitems {
+    flex-direction: column;
+  }
+  .reverse {
+    flex-direction: column-reverse;
+  }
+}
