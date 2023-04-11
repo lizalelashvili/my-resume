@@ -40,3 +40,28 @@ function myFunction() {
   }
 }
 // SLIDER
+
+
+// Form
+const form = document.getElementById('user-forms');
+
+form.addEventListener('submit', function (e) {
+  e.preventDefault();
+
+  const prePayload = new FormData(form);
+  const payload = new URLSearchParams(prePayload);
+
+  console.log([...payload]);
+
+
+  fetch('https://borjomi.loremipsum.ge/api/send-message', {
+    method: "POST",
+    body: payload,
+  })
+  .then(res => res.json())
+  .then(data => console.log(data))
+  .catch(err => console.log(err))
+})
+
+
+
