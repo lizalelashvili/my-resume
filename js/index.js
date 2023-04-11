@@ -40,4 +40,3 @@ function myFunction() {
   }
 }
 // SLIDER
-

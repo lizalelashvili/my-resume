@@ -38,4 +38,11 @@
   .reverse {
     flex-direction: column-reverse;
   }
+  .proj-list{
+    height: revert;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-right: 0;
+  }
 }
