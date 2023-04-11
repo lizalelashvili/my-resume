@@ -63,5 +63,42 @@ form.addEventListener('submit', function (e) {
   .catch(err => console.log(err))
 })
 
+const forms = document.querySelector("#user-forms");
+
+forms.addEventListener('submit', function(event) {
+  event.preventDefault();
+
+  const name = document.querySelector('#name').value;
+  const email = document.querySelector('#email').value;
+  const urlInput = document.querySelector('#url');
+  const message = document.querySelector('#message');
+
+  const emailRegex = /\S+@\S+\.\S+/;
+  if (!emailRegex.test(email)) {
+    alert('Please enter a valid email address');
+    return;
+  }
+
+  if (name === '') {
+    alert('Please enter your name');
+    return;
+  }
+
+  if (!urlInput.checkValidity()) {
+      alert('Please enter a valid URL.');
+      return;
+    }
+
+  if (!message.checkValidity()) {
+    alert('Please enter valid message.');
+    return;
+  }
+
+  const modal = window.open('modal.html', 'modal', 'width=100%');
+  modal.document.write('<h1>Thank you for getting in touch! We appreciate you contacting us.</h1>');
+  modal.document.close();
+});
+
+
 
 
