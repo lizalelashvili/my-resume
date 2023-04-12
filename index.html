@@ -291,24 +291,22 @@
           <button class="controlbtn" data-slide="2"></button>
           <button class="controlbtn" odata-slide="3"></button>
         </div>
-      </section>  
+      </section>        
       <section class="latestprojects">
         <h1>Latest Projects</h1>
         <div class="container">
           <div class="projects">
             <div class="proj-list">
-              <h3>
-                <span class="all click click-active">All</span>
-              </h3>
-              <h3><span data="0" class="click">Work ideas</span></h3>
-              <h3><span data="2" class="click">Mockup</span></h3>
-              <h3><span data="3" class="click">PSD Design</span></h3>
-              <h3><span data="1" class="click">Logo</span></h3>
-              <h3><span data="3" class="click">Presentation</span></h3>
-              <h3><span data="2" class="click">Icons</span></h3>
+              <h3><span data-filter="all" class="filter filteractive">All</span></h3>
+              <h3><span data-filter="work" class="filter">Work ideas</span></h3>
+              <h3><span data-filter="mockup" class="filter">Mockup</span></h3>
+              <h3><span data-filter="psd" class="filter">PSD Design</span></h3>
+              <h3><span data-filter="logo" class="filter">Logo</span></h3>
+              <h3><span data-filter="present" class="filter">Presentation</span></h3>
+              <h3><span data-filter="icon" class="filter">Icons</span></h3>
             </div>
             <div class="proj-img" id="proj-img">
-              <div class="project-img">
+              <div class="projectimg" data-item="work" >
                 <img src="images/workideas.jpg" alt="workideas">
                 <div class="proj-img-hover">
                   <div class="hovercenter">
@@ -318,7 +316,7 @@
                   </div>
                 </div>
               </div>
-              <div class="project-img">
+              <div class="projectimg" data-item="icon">
                 <img src="images/icons.jpg" alt="iconideas">
                 <div class="proj-img-hover">
                   <div class="hovercenter">
@@ -328,7 +326,7 @@
                   </div>
                 </div>
               </div>
-              <div class="project-img">
+              <div class="projectimg" data-item="logo">
                 <img src="images/logo.jpg" alt="logoideas">
                 <div class="proj-img-hover">
                  <div class="hovercenter">
@@ -338,7 +336,7 @@
                  </div>
                 </div>
               </div>
-              <div class="project-img">
+              <div class="projectimg" data-item="mockup">
                 <img src="images/mockup.jpg" alt="mockup">
                 <div class="proj-img-hover">
                   <div class="hovercenter">
@@ -348,8 +346,8 @@
                   </div>
                 </div>
               </div>
-              <div class="project-img">
-                <img src="images/psddesign.jpeg" alt="wpsd design">
+              <div class="projectimg" data-item="psd">
+                <img src="images/psddesign.jpeg" alt="psd design">
                 <div class="proj-img-hover">
                   <div class="hovercenter">
                     <img src="images/heart.svg" alt="heartlogo">
@@ -358,7 +356,7 @@
                   </div>
                 </div>
               </div>              
-              <div class="project-img">
+              <div class="projectimg" data-item="present">
                 <img src="images/presentation.jpg" alt="presentation">
                 <div class="proj-img-hover">
                  <div class="hovercenter">
@@ -367,8 +365,7 @@
                   <h3>Presentation</h3>
                  </div>
                 </div>
-              </div>
-              
+              </div>              
             </div>
           </div>
         </div>

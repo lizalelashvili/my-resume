@@ -6,10 +6,23 @@
     right: 0px;
   }
   .hireme {
-    text-align: left;
+    text-align: center;
   }
   .hidden {
     display: none;
+  }
+  .aboutmesec{
+    flex-direction: column;
+  }
+  .aboutme{
+    max-width: none;
+    margin-bottom: 10px;
+  }
+  .myskills{
+    max-width: none;
+  }
+  .contact-adresses{
+    text-align: center;
   }
   .seemore1024 {
     display: flex;
@@ -24,9 +37,6 @@
     color: white;
     background-color: #e93656;
     border: none;
-  }
-  .slider-container {
-    margin-top: 100px;
   }
   .designarticle,
   .articleimg {
