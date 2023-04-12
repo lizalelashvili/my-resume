@@ -601,7 +601,7 @@ footer::after {
 /* SLIDER */
 .slider-container {
   margin-top: 150px;
-  background-image: url(../images/clip.jpg);
+  background-image: url(../images/clip.webp);
   height: 400px;
   width: 100%;
   background-position: center;

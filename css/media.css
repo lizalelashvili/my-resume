@@ -55,4 +55,11 @@
     justify-content: space-evenly;
     margin-right: 0;
   }
+  .icons a > img {
+    width: 50px;
+    height: 48px;
+  }
+  .satisfclients{
+    bottom: 25px;
+  }
 }
