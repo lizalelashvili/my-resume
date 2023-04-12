@@ -757,6 +757,6 @@ footer::after {
 .proj-img-hover {
   display: none;
 }
-.project-img:hover .proj-img-hover {
+.projectimg:hover .proj-img-hover {
   display: block;
 }
