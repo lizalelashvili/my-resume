@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/media.css">
     <link rel="stylesheet" href="css/stylesheet.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
   </head>
   <body>
     <header class="header">
@@ -258,8 +259,8 @@
         </div>
       </section>
       <section class="slider-container">
-        <div class="horiz-slider">
-          <div class="horiz-slide active">
+        <div class="horizslider">
+          <div class="singleSlide">
             <h3 class="hidden">
               Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore..
             </h3>
@@ -270,7 +271,7 @@
               <h2>John Doe</h2>
             </div>
           </div>
-          <div class="horiz-slide">
+          <div class="singleSlide">
             <h3 class="hidden">
               Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore..
             </h3>
@@ -281,7 +282,7 @@
               <h2>Jane Doe</h2>
             </div>
           </div>
-          <div class="horiz-slide">
+          <div class="singleSlide">
               <h3 class="hidden">
                 Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore..
               </h3>
@@ -294,9 +295,9 @@
           </div>
         </div>
         <div class="slide-controls">
-          <button class="controlbtn active" data-slide="1"></button>
+          <button class="controlbtn" data-slide="1"></button>
           <button class="controlbtn" data-slide="2"></button>
-          <button class="controlbtn" odata-slide="3"></button>
+          <button class="controlbtn" data-slide="3"></button>
         </div>
       </section>        
       <section class="latestprojects">
@@ -463,7 +464,7 @@
             <img
               src="images/personal advisor.webp"
               alt="graph design"
-              
+              width="100%"
             />
           </div>
         </div>          
@@ -632,5 +633,6 @@
       </div>
     </footer>
     <script src="js/index.js"></script>
+    <script src="js/jquery.js"></script>
   </body>
 </html>

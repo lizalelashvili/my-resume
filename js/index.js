@@ -39,50 +39,42 @@ function myFunction() {
     bootstrapSpan.classList.remove("parent85");
   }
 }
-// SLIDER
 
 // FILTER
-const filter = document.querySelectorAll('.filter');
-const filterItem = document.querySelectorAll('.projectimg');
+const filter = document.querySelectorAll(".filter");
+const filterItem = document.querySelectorAll(".projectimg");
 
-filter.forEach((h3)=>{
-  h3.classList.remove('filteractive');
+filter.forEach((h3) => {
+  h3.classList.remove("filteractive");
 });
-filter[0].classList.add('filteractive');
+filter[0].classList.add("filteractive");
 
+filter.forEach((button) => {
+  button.addEventListener("click", (e) => {
+    e.preventDefault();
+    setActiveBtn(e);
+    const btnfilter = e.target.dataset.filter;
 
-filter.forEach((button)=>{
-button.addEventListener('click',(e)=>{
-
-  e.preventDefault();
-  setActiveBtn(e);
-  const btnfilter=e.target.dataset.filter;
-  
-  filterItem.forEach((projectimg=>{
-    if(btnfilter=='all'){
-      projectimg.style.display="block";
-    }else{
-
-      const boxfilter=projectimg.dataset.item;
-      if(btnfilter==boxfilter){
-        projectimg.style.display="block";
-      }else{
-        projectimg.style.display="none";
+    filterItem.forEach((projectimg) => {
+      if (btnfilter == "all") {
+        projectimg.style.display = "block";
+      } else {
+        const boxfilter = projectimg.dataset.item;
+        if (btnfilter == boxfilter) {
+          projectimg.style.display = "block";
+        } else {
+          projectimg.style.display = "none";
+        }
       }
-      
-    }
-  }));
-
-
-});
+    });
+  });
 });
 
-
-function  setActiveBtn(e){
-filter.forEach((h3)=>{
-  h3.classList.remove('filteractive');
-});
-e.target.classList.add('filteractive');
+function setActiveBtn(e) {
+  filter.forEach((h3) => {
+    h3.classList.remove("filteractive");
+  });
+  e.target.classList.add("filteractive");
 }
 
 // Form
